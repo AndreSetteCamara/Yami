@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+    font-size: 20px;
+}
+
+#header-1 {
+    background-color: black;
+
+}
+
+#div-ajustandooheader {
+    display: flex;
+
+}
+
+#img-logo {
+    margin-right: 800px;
+}
+
+#div-conteinerdebnt {
+    display: flex;
+    align-items: center;
+}
+
+.a-buttonstop {
+    width: 140px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.button-personalizando {
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#footer-1 {
+    background-color: black;
+    display: flex;
+    justify-content: right;
+
+}
+
+#div-endereco {
+    color: white;
+    font-size: 1.4vh;
+    margin-right: 100px;
+}
+
+a:hover {
+    color: #cc3918;
+    transition: 0.4s;
+}
+
+button:hover {
+    color: #cc3918;
+    transition: 0.4s;
+}
+
+#btn-cadastro {
+    color: #cc3918;
+}
+
+#titulo {
+    font-size: 36px;
+    margin-top: 74px;
+    margin-bottom: 20px;
+}
+
+.div-centralizando {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.div-nomes {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#div-btnregistrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn-registrar {
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 75px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#btn-registrar:hover {
+    color: #cc3918;
+    transition: 0.4s;
+}
+
+label {
+    height: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-size: 20px;
+    border-color: black;
+    height: 30px;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+
+#imagem1 {
+    position: absolute;
+    top: 57%;
+    left: 80%;
+}
+
+
+#imagem2 {
+    position: absolute;
+    top: -30%;
+    left: 85%;
+}
+
+
+#imagem3 {
+    position: absolute;
+    top: -10%;
+    right: 85%;
+
+}
+
+
+#imagem4 {
+    position: absolute;
+    top: 30%;
+    right: 80%;
+}

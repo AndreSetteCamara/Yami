@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+}
+
+#header-1 {
+    background-color: black;
+
+}
+
+#div-ajustandooheader {
+    display: flex;
+
+}
+
+#img-logo {
+    margin-right: 800px;
+}
+
+#div-conteinerdebnt {
+    display: flex;
+    align-items: center;
+}
+
+.a-buttonstop {
+    width: 140px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.button-personalizando {
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#footer-1 {
+    background-color: black;
+    display: flex;
+    justify-content: right;
+
+}
+
+#div-endereco {
+    color: white;
+    font-size: 1.4vh;
+    margin-right: 100px;
+}
+
+a:hover {
+    color: #cc3918;
+    transition: 0.4s;
+}
+
+button:hover {
+    color: #cc3918;
+    transition: 0.4s;
+}
+
+#btn-contato {
+    color: #cc3918;
+}
+
+#div-centrotitulos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-left: 220px;
+    margin-right: 310px;
+    margin-top: 48;
+}
+
+.p-titulos{
+    margin-bottom: 0;
+}
+
+#div-centralizando{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.div-redesociais{
+    display: flex;
+    align-items: center;
+    margin-top: 48.1px;
+    margin-bottom: 48.1px;
+}
+
+.p-informacoesredes{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#div-ajustandoredes{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-enviar{
+    font-family: "Hachi Maru Pop", cursive;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 75px;
+    font-size: 18px;
+
+    
+}
+
+textarea{
+    font-size: 25px;
+    height: 40px;
+    width: 555px;
+    font-family: "Hachi Maru Pop", cursive;
+    max-height: 150px;
+}
+
+
+.div-nomes{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+
+#div-nomeesobrenome{
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+   
+    
+}
+
+.txt-nomesobrenome{
+    
+    margin-right: 50px;
+    width: 250px;
+    
+}
+
+#txt-mensagem{
+    height: 150px;
+}
+
+#div-btnenviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+#div-contatocentraliado{
+    margin-left: 300px;
+}
